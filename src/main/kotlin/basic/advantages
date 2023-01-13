@@ -1,0 +1,9 @@
+Advantages
+
+01. Official support
+02. Readability - Fewer lines of code required compared to Java
+                - No need of getters & setters ( Data classes can access via the property name it self )
+
+03. Null safety -  doesn't allow to assign null values to kotlin variables ( unless we asked )
+04. Interoperability with Java 100%
+05. Coroutines & Scope functions
