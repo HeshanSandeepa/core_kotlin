@@ -1,4 +1,4 @@
-package byexample
+package introduction
 
 fun function(name: String): Unit {
     println(name)
@@ -15,9 +15,18 @@ fun functionOneLine(name: String) = println(name)
 infix fun Int.times(str: String) {
     println(str.repeat(this))
 }
-
 infix fun String.onto(other: String) =  Pair(this, other)
 
+// Operator
+operator  fun String.get(range: IntRange) = substring(range)
+
+// Varargs
+// allows you to pass variables separated by commas
+fun printVarargs(vararg params: String) {
+    for (p in params) {
+        print(p)
+    }
+}
 
 fun main(args: Array<String>) {
 
@@ -29,4 +38,7 @@ fun main(args: Array<String>) {
 
     println("Heshan" onto "Kotlin")
 
+    println("25 + 25 this is sample sentence"[2..8])
+
+    printVarargs("Hello", "Hallo", "Salut", "Hola", "你好")
 }
