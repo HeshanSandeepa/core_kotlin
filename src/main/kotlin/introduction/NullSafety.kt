@@ -8,9 +8,9 @@ fun main(args: Array<String>) {
 
     var nullableName: String?
     nullableName = null
-    println(nullableName)
+    //println(nullableName)
 
-    printName(null)
+    printName("null not")
 }
 
 fun printName(name: String?) {
