@@ -1,7 +1,5 @@
 package collections
 
-// Map is a collection of key value pairs
-// Key is unique
 
 fun main(args: Array<String>) {
 
