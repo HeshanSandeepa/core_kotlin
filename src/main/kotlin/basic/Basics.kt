@@ -16,7 +16,7 @@ fun unitOrVoid() {
 val readOnlyAge = 45
 
 // constant
-const val age = 45
+var age = 45
 
 // type inference
 val price = 100
