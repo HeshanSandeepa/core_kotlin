@@ -1,8 +1,8 @@
 package functions
 
 
-// Higher Order Functions
-// Functions that takes another function as parameter or/and returns a fucntions
+// Higher Order Functions.
+// Functions that takes another function as parameter or/and returns a functions
 
 data class Item(val name: String, val price: Float)
 
