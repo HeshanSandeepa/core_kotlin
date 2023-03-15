@@ -2,7 +2,7 @@ package functions
 
 
 // Higher Order Functions
-// Functions that takes another function as parameter or/and returns a fucntions
+// that takes another function as parameter or/and returns a function
 
 
 fun higherOrderFunctionOfTakingFunctionAsParameter(x: Int, y: Int, operation: (Int, Int) -> Int):  Int{
